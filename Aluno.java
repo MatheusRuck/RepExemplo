@@ -1,18 +1,18 @@
 
 public class Aluno {
 
-	// atributos ou propriedades ou variavel de instância
+	// atributos ou propriedades ou variavel de instÃ¢ncia
 	int rm;
 	String nome;
 	double n1;
-	double n2;
+	double n2; // haha
 
 	// metodo para calcular e retornar a media
 	public double calcularMedia() {
 		return  (n1+n2)/2;
 	}
 	
-	//metodo para retornar a situaçao
+	//metodo para retornar a situaÃ§ao
 	public String verificarSituacao() {
 
 		return calcularMedia() >= 6 ? "APROVADO" : "REPROVADO";
